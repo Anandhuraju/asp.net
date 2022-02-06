@@ -1,0 +1,98 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../image/user.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.control {
+    position: absolute;
+    top: 53%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+    width: 389px;
+    height: 574px;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    }
+
+.lbltxt1, .lbltxt2, .lblheader, .lblfooter {
+    font-weight: bold;
+    font-size:medium;
+    width:100%;
+    color: white;
+    margin: 0px 30%;
+}
+
+.tboxtxt1 {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid #ffff;
+    margin: 2% 15px;
+    outline: none;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 16px;
+    background-color: transparent;
+    text-align:center;
+}
+.tboxtxt2 {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid #ffff;
+    margin: 3% 15px;
+    outline: none;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 16px;
+    background-color: transparent;
+    text-align: center;
+}
+.tboxheader {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid #ffff;
+    margin: 4% 15px;
+    outline: none;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 16px;
+    background-color: transparent;
+    text-align: center;
+}
+.tboxfooter {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid #ffff;
+    margin: 4% 15px;
+    outline: none;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 16px;
+    background-color: transparent;
+    text-align: center;
+}
+ 
+
+.btnchange {
+
+    
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    position:absolute;
+    margin:150px -50%;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: dodgerblue;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
